@@ -1,0 +1,49 @@
+.sobre__icon {
+    height: 110px;
+    margin-top: 15px;
+    position: relative;
+    width: 110px;
+}
+
+.sobre__icon:not(:last-child)::after {
+    background-image: url("../../img/Icons/Seta.svg");
+    background-size: cover;
+    content: "";
+    height: 25px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(310%, 0);
+    width: 20px;
+  
+}
+
+.sobre__icon--atoms {
+    background: url("../../img/Icons/atomo.svg") no-repeat center / cover;
+    background-size: 55px;
+    background-position: 50% 80%;
+}
+
+.sobre__icon--molecules {
+    background: url("../../img/Icons/moleculas.svg") no-repeat center / cover;
+    background-size: 60px;
+    background-position: 50% 80%;
+}
+
+.sobre__icon--organisms {
+    background: url("../../img/Icons/organisms.svg") no-repeat center / cover;
+    background-size: 55px;
+    background-position: 50% 80%;
+}
+
+.sobre__icon--tamplates {
+    background: url("../../img/Icons/templates.svg") no-repeat center / cover;
+    background-size: 47px;
+    background-position: 50% 95%;
+}
+
+.sobre__icon--pages {
+    background: url("../../img/Icons/pages.svg") no-repeat center / cover;
+    background-size: 50px;
+    background-position: 50% 100%;
+}

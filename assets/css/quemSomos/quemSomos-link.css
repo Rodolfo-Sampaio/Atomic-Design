@@ -1,0 +1,12 @@
+.quem-somos__link {
+	border-bottom: 1px solid #595959;
+	color: #0064b2;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+.quem-somos__link:hover {
+	background-color: #dcdcdc89;
+	border-bottom: 3px solid #595959;
+	border-radius: 20%;
+}

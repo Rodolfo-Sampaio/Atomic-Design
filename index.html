@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Atomic Design</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="assets/img/logo.png" alt="Logo Atomic Design">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item"><a class="menu__link menu__link--ativo" href="#sobre">Início</a></li>
+                <li class="menu__item"><a class="menu__link" href="#como">Como funciona</a></li>
+                <li class="menu__item"><a class="menu__link" href="#quem-somos">Quem criou</a></li>
+                <li class="menu__item"><a class="menu__link" href="https://atomicdesign.bradfrost.com/chapter-2/">saiba
+                        mais</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="banner">
+        <div class="banner__imagem"></div>
+        <h2 class="banner__titulo">Sistema Atomic Design</h2>
+    </section>
+    <section class="sobre" id="sobre">
+        <div class="sobre__icons">
+            <div class="sobre__icon sobre__icon--atoms">
+                <p class="sobre__titulo">Átomo</p>
+            </div>
+            <div class="sobre__icon sobre__icon--molecules">
+                <p class="sobre__titulo">Moléculas</p>
+            </div>
+            <div class="sobre__icon sobre__icon--organisms">
+                <p class="sobre__titulo">Organismos</p>
+            </div>
+            <div class="sobre__icon sobre__icon--tamplates">
+                <p class="sobre__titulo">Templates</p>
+            </div>
+            <div class="sobre__icon sobre__icon--pages">
+                <p class="sobre__titulo">Páginas</p>
+            </div>
+        </div>
+        <p class="sobre__descricao">O design atômico consiste em átomos, moléculas, organismos, modelos e páginas
+            trabalhando simultaneamente para criar sistemas de design de interface eficazes.</p>
+        <p class="sobre__descricao">O <i>design atômico não é um processo linear,</i> mas sim um modelo mental para nos
+            ajudar a pensar em nossas interfaces de usuário como um todo coeso e uma coleção de partes ao mesmo tempo .
+            Cada um dos cinco estágios desempenha um papel fundamental na hierarquia de nossos sistemas de design de
+            interface. Vamos mergulhar em cada estágio com um pouco mais de detalhes.</p>
+    </section>
+    <section class="como" id="como">
+        <div class="como-funciona">
+            <img alt="Representação dos átomos" class="como-funciona__imagem" src="./assets/img/telas/atoms.png" />
+            <div class="como-funciona__conteudo">
+                <h4 class="como-funciona__titulo">Átomos</h4>
+                <p class="como-funciona__descricao">Se os átomos são os blocos de construção básicos da matéria, então
+                    os átomos de nossas interfaces servem como os blocos de construção fundamentais que compõem todas as
+                    nossas interfaces de usuário .</p>
+                <p class="como-funciona__descricao"> Esses átomos incluem elementos HTML básicos como rótulos de
+                    formulário, entradas, botões e outros que não podem ser divididos mais sem deixar de ser funcionais.
+                    Cada átomo no mundo natural tem suas próprias propriedades únicas. Um átomo de hidrogênio contém um
+                    elétron, enquanto um átomo de hélio contém dois. Essas propriedades químicas intrínsecas têm efeitos
+                    profundos em sua aplicação (por exemplo, a explosão de Hindenburg foi tão catastrófica porque a
+                    aeronave estava cheia de gás hidrogênio extremamente inflamável versus gás hélio inerte). Da mesma
+                    forma, cada átomo de interface tem suas próprias propriedades exclusivas, como as dimensões de uma
+                    imagem principal ou o tamanho da fonte de um título principal. </p>
+                <p class="como-funciona__descricao"> Essas propriedades inatas influenciam como cada átomo deve ser
+                    aplicado ao sistema de interface de usuário mais amplo. No contexto de uma biblioteca de padrões, os
+                    átomos demonstram todos os seus estilos básicos de uma só vez, o que pode ser uma referência útil
+                    para continuar voltando à medida que você desenvolve e mantém seu sistema de design. Mas como os
+                    átomos no mundo natural, os átomos de interface não existem no vácuo e só ganham vida com a
+                    aplicação. </p>
+            </div>
+        </div>
+        <div class="como-funciona">
+            <img alt="Representação das moléculas" class="como-funciona__imagem"
+                src="./assets/img/telas/molecules.png" />
+            <div class="como-funciona__conteudo">
+                <h4 class="como-funciona__titulo">Moléculas</h4>
+                <p class="como-funciona__descricao">Em química, moléculas são grupos de átomos ligados entre si que
+                    assumem novas propriedades distintas. Por exemplo, as moléculas de água e as moléculas de peróxido
+                    de hidrogênio têm suas próprias propriedades únicas e se comportam de maneira bastante diferente,
+                    embora sejam compostas pelos mesmos elementos atômicos (hidrogênio e oxigênio). Nas interfaces, as
+                    moléculas são grupos relativamente simples de elementos da interface do usuário funcionando juntos
+                    como uma unidade. </p>
+                <p class="como-funciona__descricao"> Por exemplo, um rótulo de formulário, uma entrada de pesquisa e um
+                    botão podem se unir para criar uma molécula de formulário de pesquisa. Quando combinados, esses
+                    átomos abstratos de repente têm um propósito. O átomo de rótulo agora define o átomo de entrada.
+                    Clicar no botão atom agora envia o formulário. O resultado é um componente simples, portátil e
+                    reutilizável que pode ser colocado em qualquer lugar onde a funcionalidade de pesquisa seja
+                    necessária. Agora, montar elementos em grupos funcionais simples é algo que sempre fizemos para
+                    construir interfaces de usuário. Mas dedicar um estágio na metodologia de projeto atômico a esses
+                    componentes relativamente simples nos fornece alguns insights importantes. </p>
+                <p class="como-funciona__descricao"> A criação de componentes simples ajuda os designers e
+                    desenvolvedores de interface do usuário a aderir ao princípio de responsabilidade única , um
+                    preceito antigo da ciência da computação que incentiva uma mentalidade de “faça uma coisa e faça
+                    bem”. Sobrecarregar um único padrão com muita complexidade torna o software pesado. Portanto, a
+                    criação de moléculas simples de interface do usuário facilita o teste, incentiva a reutilização e
+                    promove a consistência em toda a interface. Agora temos componentes simples, funcionais e
+                    reutilizáveis que podemos colocar em um contexto mais amplo. Digite organismos! </p>
+            </div>
+        </div>
+        <div class="como-funciona">
+            <img alt="Representação dos organismos" class="como-funciona__imagem"
+                src="./assets/img/telas/organisms.png" />
+            <div class="como-funciona__conteudo">
+                <h4 class="como-funciona__titulo">Organismos</h4>
+                <p class="como-funciona__descricao">Organismos são componentes de UI relativamente complexos compostos
+                    por grupos de moléculas e/ou átomos e/ou outros organismos . Esses organismos formam seções
+                    distintas de uma interface.</p>
+                <p class="como-funciona__descricao"> Vamos revisitar nossa molécula de formulário de pesquisa. Um
+                    formulário de pesquisa geralmente pode ser encontrado no cabeçalho de muitas experiências da Web,
+                    então vamos colocar essa molécula do formulário de pesquisa no contexto de um organismo de
+                    cabeçalho. O cabeçalho forma uma seção independente de uma interface, embora contenha várias partes
+                    menores de interface com suas próprias propriedades e funcionalidades exclusivas. Os organismos
+                    podem consistir em tipos de moléculas semelhantes ou diferentes. </p>
+                <p class="como-funciona__descricao"> Um organismo de cabeçalho pode consistir em elementos diferentes,
+                    como uma imagem de logotipo, uma lista de navegação primária e um formulário de pesquisa. Vemos
+                    esses tipos de organismos em quase todos os sites que visitamos. Enquanto alguns organismos podem
+                    consistir em diferentes tipos de moléculas, outros organismos podem consistir na mesma molécula
+                    repetida várias vezes. Por exemplo, visite uma página de categoria de quase qualquer site de
+                    comércio eletrônico e você verá uma lista de produtos exibidos em alguma forma de grade.</p>
+                <p class="como-funciona__descricao"> A construção de moléculas para organismos mais elaborados fornece
+                    aos designers e desenvolvedores um importante senso de contexto. Os organismos demonstram esses
+                    componentes menores e mais simples em ação e servem como padrões distintos que podem ser usados
+                    repetidamente. O organismo da grade de produtos pode ser empregado em qualquer lugar em que um grupo
+                    de produtos precise ser exibido, desde listagens de categorias até resultados de pesquisa e produtos
+                    relacionados. Agora que temos organismos definidos em nosso sistema de design, podemos quebrar nossa
+                    analogia química e aplicar todos esses componentes a algo que se assemelha a uma página da web!</p>
+            </div>
+        </div>
+        <div class="como-funciona">
+            <img alt="Representação dos templates" class="como-funciona__imagem"
+                src="./assets/img/telas/templates.png" />
+            <div class="como-funciona__conteudo">
+                <h4 class="como-funciona__titulo">Modelos</h4>
+                <p class="como-funciona__descricao">Agora, amigos, é hora de dizer adeus à nossa analogia química. A
+                    linguagem dos átomos, moléculas e organismos traz consigo uma hierarquia útil para construirmos
+                    deliberadamente os componentes de nossos sistemas de design. Mas, em última análise, devemos adotar
+                    uma linguagem mais apropriada para nosso resultado final e que faça mais sentido para nossos
+                    clientes, chefes e colegas.</p>
+                <p class="como-funciona__descricao"> Tentar levar a analogia da química longe demais pode confundir seus
+                    stakeholders e levá-los a pensar que você é um pouco louco. Confie em mim. Os modelos são objetos de
+                    nível de página que colocam componentes em um layout e articulam a estrutura de conteúdo subjacente
+                    do design. Para desenvolver nosso exemplo anterior, podemos pegar o organismo do cabeçalho e
+                    aplicá-lo a um modelo de página inicial. Este modelo de página inicial exibe todos os componentes de
+                    página necessários funcionando juntos, o que fornece contexto para essas moléculas e organismos
+                    relativamente abstratos . Ao criar um sistema de design eficaz, é fundamental demonstrar como os
+                    componentes se parecem e funcionam juntos no contexto de um layout para provar que as partes somam
+                    um todo que funciona bem.</p>
+                <p class="como-funciona__descricao"> Discutiremos isso mais adiante. Outra característica importante dos
+                    modelos é que eles se concentram na estrutura de conteúdo subjacente da página em vez do conteúdo
+                    final da página. Os sistemas de design devem levar em conta a natureza dinâmica do conteúdo, por
+                    isso é muito útil articular propriedades importantes de componentes como tamanhos de imagem e
+                    comprimentos de caracteres para títulos e passagens de texto. Ao definir o esqueleto de uma página,
+                    podemos criar um sistema que pode dar conta de uma variedade de conteúdo dinâmico, ao mesmo tempo em
+                    que fornece as proteções necessárias para os tipos de conteúdo que preenchem determinados padrões de
+                    design. Por exemplo, o modelo de página inicial da Time Inc. mostra alguns componentes-chave em
+                    ação, ao mesmo tempo em que demonstra a estrutura do conteúdo em relação aos tamanhos das imagens e
+                    comprimentos de caracteres.</p>
+            </div>
+        </div>
+        <div class="como-funciona">
+            <img alt="Representação das páginas" class="como-funciona__imagem" src="./assets/img/telas/pages.png" />
+            <div class="como-funciona__conteudo">
+                <h4 class="como-funciona__titulo">Páginas</h4>
+                <p class="como-funciona__descricao">As páginas são instâncias específicas de modelos que mostram a
+                    aparência de uma interface do usuário com conteúdo representativo real no local . Com base em nosso
+                    exemplo anterior, podemos pegar o modelo de página inicial e despejar texto, imagens e mídia
+                    representativos no modelo para mostrar o conteúdo real em ação.</p>
+                <p class="como-funciona__descricao">O estágio de página é o estágio mais concreto do design atômico e é
+                    importante por algumas razões bastante óbvias. Afinal, é isso que os usuários verão e interagirão
+                    quando visitarem sua experiência. Isso é o que seus stakeholders vão assinar. E é aqui que você vê
+                    todos esses componentes se unindo para formar uma interface de usuário bonita e funcional.
+                    Excitante!</p>
+                <p class="como-funciona__descricao">Além de demonstrar a interface final como os usuários a verão, as
+                    páginas são essenciais para testar a eficácia do sistema de design subjacente . É no estágio da
+                    página que podemos dar uma olhada em como todos esses padrões se mantêm quando o conteúdo real é
+                    aplicado ao sistema de design. Tudo parece ótimo e funciona como deveria? Se a resposta for não,
+                    podemos voltar e modificar nossas moléculas, organismos e modelos para atender melhor às
+                    necessidades de nosso conteúdo.</p>
+                <p class="como-funciona__descricao">Devemos criar sistemas que estabeleçam padrões de design
+                    reutilizáveis e também reflitam com precisão a realidade do conteúdo que estamos colocando dentro
+                    desses padrões. </p>
+            </div>
+        </div>
+    </section>
+    <section class="quem-somos" id="quem-somos">
+        <div>
+            <h3 class="quem-somos__titulo">Eu crio sistemas de design de sucesso e ajudo outros a fazerem o mesmo.</h3>
+            <p class="quem-somos__descricao">Escrevi um livro chamado Atomic Design , que cobre tudo o que envolve a
+                criação e manutenção de sistemas de design eficazes. Você pode <a class="quem-somos__link"
+                    href="https://atomicdesign.bradfrost.com/table-of-contents/">lê-lo online</a> e encomendar <a
+                    class="quem-somos__link" href="https://shop.bradfrost.com/products/atomic-design-ebook">o ebook</a>.
+            </p>
+        </div>
+        <div class="pessoas">
+            <div class="pessoa">
+                <div class="pessoa__imagem pessoa__imagem--bradFrost"></div>
+                <span class="pessoa__nome">Brad Frost</span>
+                <span class="pessoa__funcao">Olá! Sou Brad Frost , consultor de sistemas de design, web designer,
+                    palestrante, escritor e músico localizado na bela Pittsburgh, PA.</span>
+            </div>
+        </div>
+    </section>
+    <footer class="rodape"><a class="rodape__link" href="https://atomicdesign.bradfrost.com/chapter-2/">saiba mais
+            aqui!</a></footer>
+</body>
+
+</html>

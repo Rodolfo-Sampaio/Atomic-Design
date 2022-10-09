@@ -1,0 +1,24 @@
+.rodape {
+	background: #bfbfbf;
+	text-align: right;
+	padding: 1.5625rem 5rem;
+	text-transform: lowercase;
+}
+
+.rodape__link {
+	font-family: "Poppins", sans-serif;
+	text-decoration: none;
+	font-size: 1.4rem;
+	color: #fdfdfd;
+	transition: 0.3s;
+}
+
+.rodape__link:hover {
+	color: #525252;
+}
+
+@media screen and (max-width: 980px) {
+	.rodape {
+		text-align: center;
+	}
+}

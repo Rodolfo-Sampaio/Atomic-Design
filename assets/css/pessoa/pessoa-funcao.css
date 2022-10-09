@@ -1,0 +1,12 @@
+.pessoa__funcao {
+	color: #595959;
+	font-size: 1.25rem;
+	margin: 0 auto;
+	width: 70%;
+}
+
+@media screen and (max-width: 990px) {
+	.pessoa__funcao {
+		font-size: 1rem;
+	}
+}

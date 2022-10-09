@@ -1,0 +1,21 @@
+.pessoa__imagem {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 50%;
+	border: 3px solid #000;
+	height: 300px;
+	margin: 0 auto;
+	width: 300px;
+}
+
+.pessoa__imagem--bradFrost {
+	background-image: url("../../img/pessoas/brad_frost.jpg");
+}
+
+@media screen and (max-width: 990px) {
+	.pessoa__imagem {
+		height: 180px;
+		width: 180px;
+	}
+}

@@ -1,0 +1,20 @@
+.como-funciona__titulo {
+	color: #0064b2;
+	font-size: 2rem;
+	text-indent: 2.5rem;
+	width: 100%;
+}
+
+.como-funciona__titulo::before {
+	content: "# ";
+	color: #bfbfbf;
+}
+
+@media screen and (max-width: 580px) {
+	.como-funciona__titulo {
+		position: absolute;
+		text-align: center;
+		text-indent: inherit;
+		top: -55px;
+	}
+}

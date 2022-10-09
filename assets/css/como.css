@@ -1,0 +1,9 @@
+.como {
+	background: #e5e5e5;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5rem;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 100px 0;
+}

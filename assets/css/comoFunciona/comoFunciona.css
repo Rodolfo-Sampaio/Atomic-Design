@@ -1,0 +1,10 @@
+.como-funciona {
+	padding: 0 25px;
+}
+
+@media screen and (min-width: 1100px) {
+	.como-funciona {
+		padding: 0;
+		width: calc(48% - 5rem);
+	}
+}

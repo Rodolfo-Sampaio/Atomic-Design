@@ -1,0 +1,13 @@
+.quem-somos__descricao {
+	color: #595959;
+	font-size: 1.3rem;
+	font-weight: 100;
+	margin: 0 auto;
+	width: 80%;
+}
+
+@media screen and (max-width: 990px) {
+	.quem-somos__descricao {
+		font-size: 1rem;
+	}
+}

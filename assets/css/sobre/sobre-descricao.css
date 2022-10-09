@@ -1,0 +1,30 @@
+.sobre__descricao {
+	border-bottom: 1.5px solid #bbbaba;
+	color: #595959;
+	font-weight: 100;
+	margin: 25px auto;
+	padding-bottom: 30px;
+	width: 80%;
+}
+
+.sobre__descricao:last-child {
+	border: none;
+}
+
+@media screen and (min-width: 0) {
+	.sobre__descricao {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.sobre__descricao {
+		font-size: 1.1rem;
+		width: 50%;
+	}
+
+	.sobre__descricao:last-child {
+		font-size: 1.3rem;
+		width: 65%;
+	}
+}

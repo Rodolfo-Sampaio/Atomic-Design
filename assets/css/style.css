@@ -1,0 +1,42 @@
+@import url("../css/normalize.css");
+@import url("../css/reset.css");
+@import url("../css/cabecalho.css");
+@import url("../css/logo.css");
+
+@import url("../css/menu/menu-lista.css");
+@import url("../css/menu/menu-item.css");
+@import url("../css/menu/menu-link.css");
+
+@import url("../css/banner/banner.css");
+@import url("../css/banner/banner-imgem.css");
+@import url("../css/banner/banner-titulo.css");
+
+@import url("../css/sobre/sobre.css");
+@import url("../css/sobre/sobre-titulo.css");
+@import url("../css/sobre/sobre-descricao.css");
+@import url("../css/sobre/sobre-icon.css");
+@import url("../css/sobre/sobre-icons.css");
+
+@import url("../css/comoFunciona/comoFunciona.css");
+@import url("../css/comoFunciona/comoFunciona-conteudo.css");
+@import url("../css/comoFunciona/comoFunciona-descricao.css");
+@import url("../css/comoFunciona/comoFunciona-imagem.css");
+@import url("../css/comoFunciona/comoFunciona-titulo.css");
+@import url("../css/como.css");
+
+@import url("../css/quemSomos/quemSomos.css");
+@import url("../css/quemSomos/quemSomos-titulo.css");
+@import url("../css/quemSomos/quemSomos-descricao.css");
+@import url("../css/quemSomos/quemSomos-link.css");
+
+@import url("../css/pessoas.css");
+@import url("../css/pessoa/pessoa.css");
+@import url("../css/pessoa/pessoa-funcao.css");
+@import url("../css/pessoa/pessoa-imagem.css");
+@import url("../css/pessoa/pessoa-nome.css");
+
+@import url("../css/rodape.css");
+
+html {
+    scroll-behavior: smooth;
+}
