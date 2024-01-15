@@ -31,7 +31,7 @@ Veja nosso site adaptável em 🚩[Atomic Design](https://atomic-design-phi.verc
 <br>
 
 
-### "Olá, arquiteto atômico! 🧪 Bem-vindo ao 'Laboratório de Átomos Code', onde cada linha de código é um elemento fundamental para o sucesso digital! Se você apreciou essa construção atômica, dê um [`Follow`](https://github.com/Rodolfo-Sampaio) e vamos projetar juntos desafios químicos de código! ⚛️💻 #CodeChemist"
+#### Obrigado por visitar meu Git. Se você der um [`Follow`](https://github.com/Rodolfo-Sampaio), ficarei feliz em retribuir!🚀💻
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=FFFAF0&height=100&section=footer" alt="Waving Capsule Render">
 
